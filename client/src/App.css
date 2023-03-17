@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500&display=swap');
+
+.App {
+  text-align: center;
+}
+
+
+
+.app-input{
+  width: 300px;
+  height: 20px;
+  margin: 20px;
+}
+
+.result-img {
+  margin-top: 20px;
+  width: 350px;
+}
+
+.heading {
+  font-family: 'Golos Text', sans-serif;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.grid-child {
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.grid-child:hover {
+  background-color: whitesmoke;
+  color: #212121;
+}
+
+.gird-child h3 {
+  font-family: 'Golos Text', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.grid-child p {
+  font-family: 'Golos Text', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.text-area {
+  margin-top: 40px;
+  font-size: 20px;
+  padding: 10px;
+  font-family: Poppins;
+}
+
+.action-btn {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.translation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
